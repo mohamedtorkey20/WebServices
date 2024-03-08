@@ -1,0 +1,20 @@
+{
+	"require": {
+		"geocoder-php/google-maps-provider": "*",
+		"symfony/http-client": "^7.0",
+		"nyholm/psr7": "^1.8",
+		"psr/http-client": "^1.0",
+        "illuminate/database": "^8.0"
+	},
+
+    
+	"autoload": {
+		"files": ["config.php","functions.php"],
+		"classmap": ["classes"]
+	},
+	"config": {
+		"allow-plugins": {
+			"php-http/discovery": true
+		}
+	}
+}
